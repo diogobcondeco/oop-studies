@@ -20,10 +20,10 @@ public class Main {
 		s1.eat();
 		f1.eat();
 
-		System.out.println("----- SCRATCH DIS NUTS -----");
-		g1.scratchTheNuts();
-		s1.scratchTheNuts();
-		f1.scratchTheNuts();
+		System.out.println("----- RELAX -----");
+		g1.relax();
+		s1.relax();
+		f1.relax();
 
 		System.out.println("----- ATTACK -----");
 		g1.attack();
@@ -32,7 +32,7 @@ public class Main {
 
 		System.out.println("----- PEASANT STUFF -----");
 		p1.eat();
-		p1.scratchTheNuts();
+		p1.relax();
 		System.out.println(p1.getName());
 	}
 }

@@ -13,10 +13,10 @@ public class Person {
 	}
 
 	public void eat() {
-		System.out.println(name + " is eating some 😺");
+		System.out.println(name + " is eating");
 	}
 
-	public void scratchTheNuts() {
-		System.out.println(name + " is scratching dis 🥜");
+	public void relax() {
+		System.out.println(name + " is relaxing");
 	}
 }

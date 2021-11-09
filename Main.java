@@ -1,9 +1,9 @@
 public class Main {
 	public static void main(String[] args) {
 		Person p1 = new Person("Peasant");
-		Guerreiro g1 = new Guerreiro("Tiago");
-		Soldado s1 = new Soldado("Daniel");
-		Futurista f1 = new Futurista("Diogo");
+		Warrior g1 = new Warrior("Tiago");
+		Veteran s1 = new Veteran("Daniel");
+		Jedi f1 = new Jedi("Diogo");
 
 		System.out.println("----- GET NAME -----");
 		System.out.println(g1.getName());

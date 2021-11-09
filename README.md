@@ -1,5 +1,11 @@
 # OOP Studies
 
+In this example I use:
+- Inheritance
+- Encapsulation
+- Polymorphism
+- Abstraction
+---
 In this app example, I used OOP to create three different types of Soldiers:
 - Warriors
 - Veterans
@@ -19,13 +25,7 @@ They all share the same properties and behaviors, they have:
 - The veteran can fly and attacks with guns.
 - The jedi can fly and attacks with lasers.
 ---
-## In this example I use:
-- Inheritance
-- Encapsulation
-- Polymorphism
-- Abstraction
----
-## Print example
+Print example
 ```
 ----- GET NAME -----
 Tiago

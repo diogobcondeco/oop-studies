@@ -21,7 +21,7 @@ They all share the same properties and behaviors, they have:
 - The abilities "eat" and "scratch dis nuts" are the same for all of them.
 - The ability "attack" is the only one that's different.
 ---
-- The warrior can't fly and attacks with spades.
+- The warrior can't fly and attacks with swords.
 - The veteran can fly and attacks with guns.
 - The jedi can fly and attacks with lasers.
 ---

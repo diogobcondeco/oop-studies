@@ -1,6 +1,6 @@
 public class Veteran extends Soldier {
-	Veteran(String n) {
-		super(n, true);
+	Veteran(String name) {
+		super(name, true);
 	}
 
 	@Override

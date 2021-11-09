@@ -1,6 +1,6 @@
 public class Warrior extends Soldier {
-	Warrior(String n) {
-		super(n, false);
+	Warrior(String name) {
+		super(name, false);
 	}
 
 	@Override

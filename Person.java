@@ -1,16 +1,15 @@
 public class Person {
-	private String name;
+	private final String name;
 
 	public String getName() {
 		return name;
 	}
 
-	private void setName(String n) {
-		this.name = n;
-	}
-
-	Person(String n) {
-		this.setName(n);
+	Person(String name) {
+		if (name == null) {
+			throw new NullPointerException("Name can not be null");
+		} 
+		this.name = name;
 	}
 
 	public void eat() {

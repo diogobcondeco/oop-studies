@@ -1,17 +1,13 @@
 public abstract class Soldier extends Person {
-	private boolean canFly = true;
+	private final boolean canFly;
 
 	public boolean getCanFly() {
 		return canFly;
 	}
 
-	private void setCanFly(Boolean b) {
-		this.canFly = b;
-	}
-
-	Soldier(String n, Boolean b) {
-		super(n);
-		this.setCanFly(b);
+	Soldier(String name, Boolean canFly) {
+		super(name);
+		this.canFly = canFly;
 	}
 
 	abstract void attack();

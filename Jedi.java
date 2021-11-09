@@ -1,6 +1,6 @@
 public class Jedi extends Soldier {
-	Jedi(String n) {
-		super(n, true);
+	Jedi(String name) {
+		super(name, true);
 	}
 
 	@Override
